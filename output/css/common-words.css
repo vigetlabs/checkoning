@@ -1,0 +1,8 @@
+#commonWords {
+	padding-top: 75px;
+}
+
+#commonWords .node text {
+	pointer-events: none;
+	text-anchor: middle;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "checkoning",
+  "version": "0.0.1",
+  "description": "The great checkoning",
+  "repository": "git@github.com:averyvery/checkoning.git",
+  "engine": "node 0.4.1",
+  "devDependencies": {
+    "common-words": "~0.1.3",
+    "connect": "^3.1.0",
+    "octonode": "~0.6.2",
+    "open": "0.0.5",
+    "prompt": "~0.2.12",
+    "rsvp": "~3.0.6",
+    "serve-static": "^1.5.0",
+    "underscore": "~1.6.0"
+  }
+}

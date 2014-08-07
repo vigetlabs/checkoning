@@ -1,0 +1,22 @@
+#commentLinks .node {
+	cursor: pointer;
+}
+
+#commentLinks .node text {
+	pointer-events: none;
+  font-size: 15px;
+	font-weight: bold;
+	pointer-events: none;
+	text-anchor: middle;
+}
+
+#commentLinks .node text,
+#commentLinks .node rect {
+	opacity: 0;
+	transition: opacity ease-in-out 0.2s;
+}
+
+#commentLinks .node:hover text,
+#commentLinks .node:hover rect {
+	opacity: 1;
+}

@@ -1,0 +1,36 @@
+#userAwards {
+	padding-top: 100px;
+}
+
+#userAwards dl {
+	overflow: hidden;
+	margin: 30px;
+}
+
+#userAwards dt {
+	clear: left;
+	float: left;
+	font-size: 18px;
+	margin: 0 0 15px;
+	padding-right: 30px;
+	text-align: right;
+	width: 30%;
+}
+
+#userAwards dd {
+	float: left;
+	font-size: 18px;
+	margin: 0 0 15px;
+	width: 60%;
+}
+
+#userAwards h2 {
+	color: #47acb1;
+	font-size: 60px;
+	font-weight: 100;
+	margin: 10px 0 15px;
+}
+
+#userAwards dd b {
+	color: #199c91;
+}

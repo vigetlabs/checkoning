@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+#languageLinks .node {
+	cursor: pointer;
+}
+
+#languageLinks .user-node text {
+	pointer-events: none;
+  font: 15px sans-serif;
+	font-weight: bold;
+	pointer-events: none;
+	text-anchor: middle;
+}
+
+#languageLinks .language-node text {
+	font-weight: bold;
+}
+
+#languageLinks .user-node text,
+#languageLinks .user-node rect {
+	opacity: 0;
+	transition: opacity ease-in-out 0.2s;
+}
+
+#languageLinks .user-node:hover text,
+#languageLinks .user-node:hover rect {
+	opacity: 1;
+}

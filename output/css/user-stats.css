@@ -1,0 +1,45 @@
+#userStats {
+	padding-top: 100px;
+}
+
+#userStats div {
+	overflow: hidden;
+	padding: 30px 30px 30px 300px;
+}
+
+#userStats h2 {
+	color: #47acb1;
+	font-size: 60px;
+	font-weight: 100;
+	margin: 10px 0 15px;
+}
+
+#userStats img {
+	border: #585f5d 5px solid;
+	left: 30px;
+	position: absolute;
+	top: 55px;
+	width: 230px;
+}
+
+#userStats dl {
+	float: left;
+	padding: 0 15px 0 0;
+	width: 50%;
+}
+
+#userStats dt {
+	color: #979588;
+	font-size: 18px;
+	font-weight: 100;
+	margin: 0 0 2px;
+}
+
+#userStats dd {
+	font-size: 18px;
+	margin: 0 0 20px;
+}
+
+#userStats dd b {
+	color: #47acb1;
+}
