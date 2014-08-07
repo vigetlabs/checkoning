@@ -23,3 +23,26 @@ h1 {
 div {
 	position: relative;
 }
+
+.nav {
+	padding: 30px;
+	list-style-type: none;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	color: #e55f20;
+	display: inline-block;
+	margin: 2px 0;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background: rgba(0, 0, 0, 0.16);
+}
