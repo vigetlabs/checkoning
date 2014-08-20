@@ -16,5 +16,5 @@ module.exports = (user, users)->
 			bffCount = count
 			bff = potentialBff
 
-	bff:			_(users).findWhere(login: bff).name
+	bff:			_(users).findWhere(login: bff)?.name
 	bffCount: bffCount

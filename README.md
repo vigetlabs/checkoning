@@ -49,7 +49,13 @@ coffee view.coffee
 
 # Configuration
 
-When you run the fetch command, you'll be prompted to enter your GitHub username, your password, your organization name, and your team ID (an integer).
+When you run the fetch command, you'll be prompted to enter your GitHub username, your password, your organization name, and your team slug name (e.g. https://github.com/orgs/_companyname_/teams/_teamslug_).
+
+## Personal access tokens
+
+> Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication.
+
+[Create a personal access token](https://github.com/blog/1509-personal-api-tokens) and use it as your password in the config for additional security.
 
 If you get tired of doing this repeatedly, you can make a `.config.json` file in the following format:
 
@@ -58,7 +64,7 @@ If you get tired of doing this repeatedly, you can make a `.config.json` file in
 	"username": "my_username",
 	"password": "password123",
 	"organization": "companyname",
-	"team": 12345
+	"team": "teamslug"
 }
 ```
 
@@ -67,5 +73,3 @@ Then, run the script with the `--config` flag.
 ```
 coffee fetch/index.coffee --config
 ```
-
-One way to find your team ID is visit your team's GitHub page in the browser and enter `$('.js-team-id').data('id')` in the console.
