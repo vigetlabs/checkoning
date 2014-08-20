@@ -16,5 +16,5 @@ module.exports = (user, users)->
 			admirerCount = count
 			admirer = potentialAdmirer
 
-	admirer:      _(users).findWhere(login: admirer).name
+	admirer:      _(users).findWhere(login: admirer)?.name
 	admirerCount: admirerCount
