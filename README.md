@@ -76,4 +76,4 @@ One way to find your team ID is visit your team's GitHub page in the browser and
   <img src="http://code.viget.com/github-banner.png" alt="Code At Viget">
 </a>
 
-Visit [code.viget.com](http://code.viget.com) to see more projects from [Viget.][https://viget.com]
+Visit [code.viget.com](http://code.viget.com) to see more projects from [Viget.](https://viget.com)
