@@ -69,3 +69,11 @@ coffee fetch/index.coffee --config
 ```
 
 One way to find your team ID is visit your team's GitHub page in the browser and enter `$('.js-team-id').data('id')` in the console.
+
+***
+
+<a href="http://code.viget.com">
+  <img src="http://code.viget.com/github-banner.png" alt="Code At Viget">
+</a>
+
+Visit [code.viget.com](http://code.viget.com) to see more projects from [Viget.][https://viget.com]
